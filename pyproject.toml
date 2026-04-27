@@ -1,0 +1,17 @@
+[project]
+name = "assignment3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Marlon Etheredge",email = "marlon.etheredge@uibk.ac.at"}
+]
+requires-python = "~3.14"
+dependencies = [
+    "matplotlib (>=3.10.8,<4.0.0)",
+    "pyqt6 (>=6.10.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
